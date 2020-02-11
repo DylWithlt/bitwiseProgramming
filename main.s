@@ -9,7 +9,7 @@ LC1:
 	.globl	_main
 	.def	_main;	.scl	2;	.type	32;	.endef
 _main:
-LFB10:
+LFB10: ; basically a bunch of calls and declarations not much to see here
 	.cfi_startproc
 	pushl	%ebp
 	.cfi_def_cfa_offset 8
