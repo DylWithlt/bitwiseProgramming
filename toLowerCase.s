@@ -32,7 +32,7 @@ L4:
 	movl	-12(%ebp), %ecx
 	movl	8(%ebp), %edx
 	addl	%ecx, %edx
-	movzbl	(%edx), %edx ;; yada yada memory moving stuff
+	movzbl	(%edx), %edx ; yada yada memory moving stuff
 	orl	$32, %edx ; or edx with 32 and mov to edx
 	movb	%dl, (%eax) ; move eax to dl (first 8 bits of dl)
 L3:
